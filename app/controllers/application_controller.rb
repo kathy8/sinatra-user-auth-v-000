@@ -36,7 +36,7 @@ end
     redirect '/users/home'
   end
 
-  get '/sessions/logout' do 
+  get '/sessions/logout' do
     session.clear
 
     redirect '/'
